@@ -1,0 +1,220 @@
+using System;
+
+namespace BBG_ODEV
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int roma, a = 0, b, i;
+            int x = 0;
+            string[] birler = { "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IV", "X" };
+            string[] onlar = { "L", "C", "D", "M" };//50 100 500 1000 
+            Console.Write("Lütfen Sayıyı Girin :");
+            roma = Convert.ToInt16(Console.ReadLine());
+
+
+            // while(roma%10 > 10)
+            //{
+
+            if (roma < 1000)
+            {
+                if (roma<1000)
+                {
+                    a = (a/100)-5;
+                    b = roma % 10;
+
+                    if (roma >= 900)
+                    {
+                        Console.WriteLine(onlar[2]);
+                        Console.WriteLine(onlar[3]);
+                        if (b < 10)
+                        {
+                            if (b == 1) Console.WriteLine(birler[0]);
+                            if (b == 1) Console.WriteLine(birler[0]);
+                            if (b == 2) Console.WriteLine(birler[1]);
+                            if (b == 3) Console.WriteLine(birler[2]);
+                            if (b == 4) Console.WriteLine(birler[3]);
+                            if (b == 5) Console.WriteLine(birler[4]);
+                            if (b == 6) Console.WriteLine(birler[5]);
+                            if (b == 7) Console.WriteLine(birler[6]);
+                            if (b == 8) Console.WriteLine(birler[7]);
+                            if (b == 9) Console.WriteLine(birler[8]);
+                        }
+                    }
+                    else
+                    {
+                        for (i = 0; i < a; i++)
+                        {
+                            Console.WriteLine(onlar[2]);
+
+                        }
+                        if (b < 10)
+                        {
+                            if (b == 1) Console.WriteLine(birler[0]);
+                            if (b == 1) Console.WriteLine(birler[0]);
+                            if (b == 2) Console.WriteLine(birler[1]);
+                            if (b == 3) Console.WriteLine(birler[2]);
+                            if (b == 4) Console.WriteLine(birler[3]);
+                            if (b == 5) Console.WriteLine(birler[4]);
+                            if (b == 6) Console.WriteLine(birler[5]);
+                            if (b == 7) Console.WriteLine(birler[6]);
+                            if (b == 8) Console.WriteLine(birler[7]);
+                            if (b == 9) Console.WriteLine(birler[8]);
+                        }
+                    }
+
+
+
+
+                }
+                if (roma < 500)
+                {
+                    a = roma / 100;
+                    b = roma % 10;
+                    if (roma >= 400)
+                    {
+                        Console.WriteLine(onlar[1]);
+                        Console.WriteLine(onlar[2]);
+                        if (b < 10)
+                        {
+                            if (b == 1) Console.WriteLine(birler[0]);
+                            if (b == 1) Console.WriteLine(birler[0]);
+                            if (b == 2) Console.WriteLine(birler[1]);
+                            if (b == 3) Console.WriteLine(birler[2]);
+                            if (b == 4) Console.WriteLine(birler[3]);
+                            if (b == 5) Console.WriteLine(birler[4]);
+                            if (b == 6) Console.WriteLine(birler[5]);
+                            if (b == 7) Console.WriteLine(birler[6]);
+                            if (b == 8) Console.WriteLine(birler[7]);
+                            if (b == 9) Console.WriteLine(birler[8]);
+                        }
+
+                    }
+                    else
+                    {
+                        for (i = 0; i < a; i++)
+                        {
+                            Console.WriteLine(onlar[1]);
+                            if (b < 10)
+                            {
+                                if (b == 1) Console.WriteLine(birler[0]);
+                                if (b == 1) Console.WriteLine(birler[0]);
+                                if (b == 2) Console.WriteLine(birler[1]);
+                                if (b == 3) Console.WriteLine(birler[2]);
+                                if (b == 4) Console.WriteLine(birler[3]);
+                                if (b == 5) Console.WriteLine(birler[4]);
+                                if (b == 6) Console.WriteLine(birler[5]);
+                                if (b == 7) Console.WriteLine(birler[6]);
+                                if (b == 8) Console.WriteLine(birler[7]);
+                                if (b == 9) Console.WriteLine(birler[8]);
+                            }
+                        }
+                    }
+
+                } 
+                        if (roma<100)
+                        {
+                    
+                    a = (roma-50) / 10;
+                    b = roma % 10;
+                    if (roma >= 90)
+                    {
+                        
+                         Console.WriteLine(birler[9]);
+                        Console.WriteLine(onlar[1]);
+                        if (b < 10)
+                        {
+                            if (b == 1) Console.WriteLine(birler[0]);
+                            if (b == 1) Console.WriteLine(birler[0]);
+                            if (b == 2) Console.WriteLine(birler[1]);
+                            if (b == 3) Console.WriteLine(birler[2]);
+                            if (b == 4) Console.WriteLine(birler[3]);
+                            if (b == 5) Console.WriteLine(birler[4]);
+                            if (b == 6) Console.WriteLine(birler[5]);
+                            if (b == 7) Console.WriteLine(birler[6]);
+                            if (b == 8) Console.WriteLine(birler[7]);
+                            if (b == 9) Console.WriteLine(birler[8]);
+                        }
+
+                    }
+                            else
+                            {
+                        
+                        for (i = 0; i < a; i++)
+                                {
+                                    Console.WriteLine(birler[9]);
+                            if (b < 10)
+                            {
+                                if (b == 1) Console.WriteLine(birler[0]);
+                                if (b == 1) Console.WriteLine(birler[0]);
+                                if (b == 2) Console.WriteLine(birler[1]);
+                                if (b == 3) Console.WriteLine(birler[2]);
+                                if (b == 4) Console.WriteLine(birler[3]);
+                                if (b == 5) Console.WriteLine(birler[4]);
+                                if (b == 6) Console.WriteLine(birler[5]);
+                                if (b == 7) Console.WriteLine(birler[6]);
+                                if (b == 8) Console.WriteLine(birler[7]);
+                                if (b == 9) Console.WriteLine(birler[8]);
+                            }
+                        }
+                            }
+                        }
+                if (roma < 50)
+                {
+                   a  = roma / 10;
+                    b = roma % 10;
+
+                    if (roma >= 40)
+                    {
+
+                        Console.WriteLine(birler[9]);
+                        Console.WriteLine(onlar[0]);
+                        if (b < 10)
+                        { if(b==1) Console.WriteLine(birler[0]);
+                            if (b == 1) Console.WriteLine(birler[0]);
+                            if (b == 2) Console.WriteLine(birler[1]);
+                            if (b == 3) Console.WriteLine(birler[2]);
+                            if (b == 4) Console.WriteLine(birler[3]);
+                            if (b == 5) Console.WriteLine(birler[4]);
+                            if (b == 6) Console.WriteLine(birler[5]);
+                            if (b == 7) Console.WriteLine(birler[6]);
+                            if (b == 8) Console.WriteLine(birler[7]);
+                            if (b == 9) Console.WriteLine(birler[8]);
+                        }
+
+
+                    }
+                    else
+                    {
+                        
+                        for (i = 0; i < a; i++)
+                        {
+                            Console.WriteLine(birler[9]);
+                            if (b < 10)
+                            {
+                                if (b == 1) Console.WriteLine(birler[0]);
+                                if (b == 1) Console.WriteLine(birler[0]);
+                                if (b == 2) Console.WriteLine(birler[1]);
+                                if (b == 3) Console.WriteLine(birler[2]);
+                                if (b == 4) Console.WriteLine(birler[3]);
+                                if (b == 5) Console.WriteLine(birler[4]);
+                                if (b == 6) Console.WriteLine(birler[5]);
+                                if (b == 7) Console.WriteLine(birler[6]);
+                                if (b == 8) Console.WriteLine(birler[7]);
+                                if (b == 9) Console.WriteLine(birler[8]);
+                            }
+                        }
+                    }
+                }
+                    }
+               //}
+                
+                  
+                
+            
+           
+        }
+    }
+}
